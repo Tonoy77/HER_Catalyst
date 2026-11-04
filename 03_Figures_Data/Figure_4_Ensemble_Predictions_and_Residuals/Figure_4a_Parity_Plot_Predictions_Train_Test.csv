@@ -1,0 +1,60 @@
+﻿system,catalyst_label,partition,dG_H_DFT_eV,dG_H_Ensemble_Pred_eV,residual_Pred_minus_DFT_eV,abs_residual_eV,within_pm0_15_eV_band
+Ag_Co_Si,Ag–Co,Training (41),-0.3074,-0.2189,0.0885,0.0885,True
+Ag_Fe_Si,Ag–Fe,Training (41),-0.1622,-0.2738,-0.1116,0.1116,True
+Co_Ba_Si,Co–Ba,Training (41),-0.2376,-0.2106,0.0269,0.0269,True
+Co_Cu_Si,Co–Cu,Held-out Test (18),0.2252,-0.1187,-0.3439,0.3439,False
+Co_Fe_Si,Co–Fe,Training (41),-0.1798,-0.1857,-0.0058,0.0058,True
+Co_Mo_Si,Co–Mo,Held-out Test (18),-0.1838,-0.501,-0.3172,0.3172,False
+Co_Ni_Si,Co–Ni,Training (41),-0.1027,-0.1457,-0.043,0.043,True
+Co_Ta_Si,Co–Ta,Held-out Test (18),-0.8652,-0.3425,0.5227,0.5227,False
+Cr_Co_Si,Cr–Co,Training (41),-0.0097,-0.1644,-0.1546,0.1546,False
+Cr_Fe_Si,Cr–Fe,Held-out Test (18),-0.0685,-0.0716,-0.0031,0.0031,True
+Cu_Ag_Si,Cu–Ag,Training (41),0.0675,0.094,0.0265,0.0265,True
+Cu_Bi_Si,Cu–Bi,Held-out Test (18),0.5032,0.3571,-0.1461,0.1461,True
+Cu_Ce_Si,Cu–Ce,Training (41),0.3273,0.2109,-0.1164,0.1164,True
+Cu_Mo_Si,Cu–Mo,Training (41),-0.0531,-0.1438,-0.0907,0.0907,True
+Cu_Sb_Si,Cu–Sb,Training (41),0.5954,0.5109,-0.0844,0.0844,True
+Cu_Zn_Si,Cu–Zn,Training (41),0.5047,0.4347,-0.07,0.07,True
+Fe_Bi_Si,Fe–Bi,Training (41),0.2042,0.2316,0.0274,0.0274,True
+Fe_Cd_Si,Fe–Cd,Training (41),0.2732,0.2643,-0.009,0.009,True
+Fe_Ce_Si,Fe–Ce,Training (41),-0.5067,-0.4179,0.0888,0.0888,True
+Fe_Cu_Si,Fe–Cu,Training (41),-0.178,-0.1054,0.0726,0.0726,True
+Fe_La_Si,Fe–La,Held-out Test (18),-0.5125,-0.288,0.2245,0.2245,False
+Fe_Mg_Si,Fe–Mg,Held-out Test (18),-0.3915,-0.4031,-0.0116,0.0116,True
+Fe_Mn_Si,Fe–Mn,Held-out Test (18),-0.1752,-0.042,0.1332,0.1332,True
+Fe_Ni_Si,Fe–Ni,Training (41),-1.6736,-1.3612,0.3124,0.3124,False
+Fe_Pd_Si,Fe–Pd,Training (41),-0.0131,-0.04,-0.027,0.027,True
+Fe_Ti_Si,Fe–Ti,Held-out Test (18),-0.6406,-0.2264,0.4142,0.4142,False
+Fe_W_Si,Fe–W,Training (41),-1.1618,-1.0412,0.1206,0.1206,True
+Mg_Co_Si,Mg–Co,Training (41),-0.4163,-0.3448,0.0716,0.0716,True
+Mg_Cu_Si,Mg–Cu,Training (41),0.2418,0.1397,-0.1021,0.1021,True
+Mg_Fe_Si,Mg–Fe,Training (41),-0.4728,-0.4082,0.0647,0.0647,True
+Mg_Ni_Si,Mg–Ni,Training (41),0.1369,0.048,-0.0889,0.0889,True
+Mn_Cu_Si,Mn–Cu,Training (41),0.0162,-0.0451,-0.0613,0.0613,True
+Mn_W_Si,Mn–W,Training (41),-0.4384,-0.4129,0.0255,0.0255,True
+Mo_Fe_Si,Mo–Fe,Training (41),-0.3266,-0.2599,0.0667,0.0667,True
+Na_Co_Si,Na–Co,Held-out Test (18),-0.468,-0.4308,0.0373,0.0373,True
+Na_Cu_Si,Na–Cu,Training (41),-0.1882,-0.2106,-0.0224,0.0224,True
+Na_Fe_Si,Na–Fe,Training (41),-0.6048,-0.5361,0.0686,0.0686,True
+Na_Ni_Si,Na–Ni,Held-out Test (18),-0.3614,-0.4191,-0.0577,0.0577,True
+Ni_Cr_Si,Ni–Cr,Held-out Test (18),-0.3635,-0.2268,0.1367,0.1367,True
+Ni_Cu_Si,Ni–Cu,Training (41),-0.1119,-0.0662,0.0457,0.0457,True
+Ni_Mn_Si,Ni–Mn,Training (41),-0.072,-0.156,-0.084,0.084,True
+Ni_Sb_Si,Ni–Sb,Held-out Test (18),0.3659,0.3905,0.0246,0.0246,True
+Ni_Se_Si,Ni–Se,Held-out Test (18),0.3746,0.3722,-0.0025,0.0025,True
+Ni_Ta_Si,Ni–Ta,Training (41),-0.3763,-0.3571,0.0192,0.0192,True
+Ni_Te_Si,Ni–Te,Held-out Test (18),0.7182,0.3696,-0.3485,0.3485,False
+Pd_Cu_Si,Pd–Cu,Held-out Test (18),0.1427,0.0311,-0.1117,0.1117,True
+Pd_Ni_Si,Pd–Ni,Training (41),-0.0436,-0.1057,-0.0621,0.0621,True
+Ti_Fe_Si,Ti–Fe,Training (41),-0.5893,-0.5275,0.0618,0.0618,True
+V_Co_Si,V–Co,Training (41),0.3779,0.0244,-0.3535,0.3535,False
+V_Ni_Si,V–Ni,Training (41),-1.9218,-1.5255,0.3963,0.3963,False
+W_Ni_Si,W–Ni,Held-out Test (18),-0.2757,-0.1581,0.1176,0.1176,True
+Zn_Co_Si,Zn–Co,Training (41),-0.0222,-0.07,-0.0479,0.0479,True
+Zn_Fe_Si,Zn–Fe,Training (41),-1.3126,-1.1854,0.1272,0.1272,True
+Zn_Se_Si,Zn–Se,Training (41),0.5388,0.479,-0.0598,0.0598,True
+Zr_Co_Si,Zr–Co,Training (41),-0.3831,-0.3014,0.0817,0.0817,True
+Zr_Cu_Si,Zr–Cu,Held-out Test (18),-0.0832,-0.1069,-0.0237,0.0237,True
+Zr_Fe_Si,Zr–Fe,Training (41),0.0969,0.0644,-0.0325,0.0325,True
+Zr_Ni_Si,Zr–Ni,Training (41),-0.0399,-0.0371,0.0027,0.0027,True
+Zr_V_Si,Zr–V,Training (41),0.0089,-0.058,-0.067,0.067,True

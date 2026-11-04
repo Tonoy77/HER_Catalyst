@@ -1,0 +1,15 @@
+﻿Rank,Feature,Mean Absolute SHAP Value (eV)
+1,Total Mag Mtot,0.0998
+2,melting point TM2,0.052
+3,Work Function Φ,0.0471
+4,mendeleev no TM2,0.0336
+5,εd TM1,0.0302
+6,sum valence electrons,0.0238
+7,Charge qTM2,0.0224
+8,group TM2,0.0218
+9,valence electrons TM2,0.0217
+10,boiling point TM2,0.0189
+11,εd TM2,0.016
+12,metallic radius TM2,0.0151
+13,Eslab/atom,0.0119
+14,Charge qTM1,0.0101

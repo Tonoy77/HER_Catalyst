@@ -1,0 +1,11 @@
+﻿Rank,Feature Code,Feature Display Name,Importance Mean Increase in Held-Out MAE (eV),Importance Std (eV)
+1,sum_valence_electrons,sum valence electrons,0.1618,0.0737
+2,base_magnetisation_muB,Total Mag Mtot,0.0964,0.1003
+3,melting_point_TM2,melting point TM2,0.0943,0.0434
+4,mendeleev_no_TM2,mendeleev no TM2,0.0669,0.0268
+5,boiling_point_TM2,boiling point TM2,0.0626,0.0361
+6,base_E_per_atom_eV,Eslab/atom,0.0561,0.0372
+7,wf_phi_catalytic_eV,Work Function Φ,0.051,0.0349
+8,metallic_radius_TM2,metallic radius TM2,0.0484,0.0193
+9,group_TM2,group TM2,0.0419,0.0223
+10,valence_electrons_TM2,valence electrons TM2,0.036,0.0211

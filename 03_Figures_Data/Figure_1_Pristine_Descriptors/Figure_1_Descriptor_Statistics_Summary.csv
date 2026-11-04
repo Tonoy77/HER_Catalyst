@@ -1,0 +1,8 @@
+﻿Descriptor Property,Symbol (Units),Count,Min,Median,Mean,Std,Max
+Work Function,Φ (eV),59,1.644,4.137,4.065,0.693,5.195
+d-Band Center,εd - EF (eV),59,-4.72,-1.08,-1.43,1.124,0.136
+Bader Charge TM1,qTM1 (e),59,-0.698,0.065,0.22,0.596,1.4
+Bader Charge TM2,qTM2 (e),59,-0.942,-0.157,-0.077,0.546,1.329
+Bader Net Transfer,Δqnet (e),59,-1.201,0.086,0.143,0.589,1.855
+Bader Asymmetry,|qTM1 - qTM2| (e),59,0.004,0.759,0.833,0.587,2.258
+Total Magnetization,Mtot (μB),59,0.0,0.664,1.182,1.298,5.471

@@ -1,0 +1,6 @@
+Model Architecture,Train R2,Test R2,Train MAE (eV),Test MAE (eV),Train RMSE (eV),Test RMSE (eV)
+Random Forest (RFR),0.872,0.71,0.144,0.171,0.188,0.223
+Gradient Boosting (GBR),0.99,0.396,0.043,0.249,0.053,0.322
+Support Vector (SVR),0.81,0.638,0.144,0.197,0.23,0.249
+XGBoost (XGB),0.989,0.681,0.045,0.178,0.056,0.234
+Consensus Ensemble,0.949,0.699,0.085,0.168,0.119,0.227

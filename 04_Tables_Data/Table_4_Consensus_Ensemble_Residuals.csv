@@ -1,0 +1,4 @@
+﻿Partition,n,Mean residual (eV),Std dev (eV),Max positive (eV),Max negative (eV),Within ±0.15 eV
+Training,41,+0.002,0.119,+0.392,-0.354,90.2%
+Held-out test,18,+0.014,0.226,+0.525,-0.350,66.7%
+Entire library,59,+0.006,0.160,+0.525,-0.354,83.1%
