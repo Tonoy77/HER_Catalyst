@@ -6,7 +6,7 @@ Data and code supporting research on **"Hydrogen evolution catalyst design on du
 - **Corresponding Authors:**
   - Aminul Islam (aminul_pme@just.edu.bd) — Jashore University of Science and Technology & Korea University
   - Tarikul Islam (tarikul@uga.edu) — University of Georgia
-- **Archive DOI:** [DOI to be added after Zenodo deposit]  **Version:** [1.0.1]
+- **Archive DOI:** [10.5281/zenodo.23944806](https://doi.org/10.5281/zenodo.23944806)  **Version:** [1.0.1]
 - **Licences:** Data under CC-BY 4.0 (`LICENSE-DATA`), Code under MIT (`LICENSE`)
 
 ## 1. What this archive contains
@@ -93,4 +93,4 @@ Tested with Python 3.12.10, numpy 2.5.4, pandas 3.1.0, scipy 1.18.1, scikit-lear
 
 If you use these data or code, please cite this archive:
 
-> Islam, A., Hossain, M. M., Hassan, T., Islam, P., Hossain, S., Nipa, F. Y., Rafi, F. A., Raid, G. A., Rahman, M. M., Islam, T. *Dual-atom catalysts on Si(111) for the hydrogen evolution reaction: DFT and machine-learning data.* Zenodo, 2026. DOI: 10.5281/zenodo.[assigned-DOI].
+> Islam, A., Hossain, M. M., Hassan, T., Islam, P., Hossain, S., Nipa, F. Y., Rafi, F. A., Raid, G. A., Rahman, M. M., Islam, T. *Dual-atom catalysts on Si(111) for the hydrogen evolution reaction: DFT and machine-learning data.* Zenodo, 2026. DOI: 10.5281/zenodo.23944806.
