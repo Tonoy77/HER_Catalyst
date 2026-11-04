@@ -12,7 +12,8 @@ Evaluates:
   - Table 3: Model performance benchmarks across architectures (Train & Test R^2, MAE, RMSE)
   - Table 4: Residual error statistics for the Consensus Ensemble (Training, Test, Entire library)
   - Figure 3c: Permutation Feature Importance ranking (30 repeats)
-  - Figure 3d: 14-descriptor Pearson correlation matrix
+  - Figure 3d: SHAP summary
+  - Figure 3e: 14-descriptor Pearson correlation matrix
   - Figure 4a: Reference DFT vs ML Predicted Parity plot (train n=41, held-out test n=18)
 """
 import os
@@ -220,14 +221,14 @@ def main():
     plt.close(fig)
     print(f"\nSaved Figure 4a parity plot to: {parity_path}")
 
-    # Compute and Save Pearson Correlation Matrix for 14 Selected Descriptors (Figure 3d)
+    # Compute and Save Pearson Correlation Matrix for 14 Selected Descriptors (Figure 3e)
     if os.path.exists(DATA_14):
         df14 = pd.read_csv(DATA_14)
         feat_14_cols = [c for c in df14.columns if c not in ["system", "catalyst_label", "partition", "dG_H_corrected_eV"]]
         corr_matrix = df14[feat_14_cols].rename(columns=FEATURE_NAMES).corr()
-        corr_path = os.path.join(OUT_DIR, "reproduced_correlation_matrix_fig3d.csv")
+        corr_path = os.path.join(OUT_DIR, "reproduced_correlation_matrix_fig3e.csv")
         corr_matrix.round(4).to_csv(corr_path)
-        print(f"Saved Figure 3d correlation matrix to: {corr_path}")
+        print(f"Saved Figure 3e correlation matrix to: {corr_path}")
 
     # Save output tables
     pd.DataFrame(benchmarks).to_csv(os.path.join(OUT_DIR, "reproduced_table3_benchmarks.csv"), index=False)

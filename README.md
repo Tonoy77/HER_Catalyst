@@ -6,7 +6,7 @@ Data and code supporting research on **"Hydrogen evolution catalyst design on du
 - **Corresponding Authors:**
   - Aminul Islam (aminul_pme@just.edu.bd) — Jashore University of Science and Technology & Korea University
   - Tarikul Islam (tarikul@uga.edu) — University of Georgia
-- **Archive DOI:** [DOI to be added after Zenodo deposit]  **Version:** [1.0.0]
+- **Archive DOI:** [DOI to be added after Zenodo deposit]  **Version:** [1.0.1]
 - **Licences:** Data under CC-BY 4.0 (`LICENSE-DATA`), Code under MIT (`LICENSE`)
 
 ## 1. What this archive contains
@@ -40,7 +40,7 @@ requirements.txt                     # Pinned Python package dependencies
     bader_charge_analysis.csv            # Bader charges and atomic basin charges
     optical_dielectric_properties.csv    # Dielectric functions, absorption coefficients
     top5_shortlisted_candidates.csv      # The five shortlisted premier catalysts
-03_Figures_Data/                         # Underpinning numerical data for Figures 1–7 and Supplementary S1, S2, S5
+03_Figures_Data/                         # Underpinning numerical data for Figures 1–7 and Supplementary S1–S4
 04_Tables_Data/                          # Underpinning numerical data for Tables 1–5
 05_Machine_Learning_and_Code/
     train_and_evaluate_ml.py             # Standalone ML pipeline (models, residuals, PFI, correlation, parity plot)
@@ -87,7 +87,7 @@ pip install -r ../requirements.txt
 python train_and_evaluate_ml.py
 ```
 
-Tested with Python 3.12.10, numpy 2.5.4, pandas 3.1.0, scipy 1.18.1, scikit-learn 1.9.1, xgboost 3.4.1, matplotlib 3.11.2. The script validates partition alignment, calculates benchmarks and residual statistics, and saves the reproduced parity plot (Fig. 4a), PFI rankings (Fig. 3c), and Pearson correlation matrix (Fig. 3d) into `reproduced_figures/`.
+Tested with Python 3.12.10, numpy 2.5.4, pandas 3.1.0, scipy 1.18.1, scikit-learn 1.9.1, xgboost 3.4.1, matplotlib 3.11.2. The script validates partition alignment, calculates benchmarks and residual statistics, and saves the reproduced parity plot (Fig. 4a), PFI rankings (Fig. 3c), and Pearson correlation matrix (Fig. 3e) into `reproduced_figures/`. (SHAP feature attribution data for Fig. 3d is curated directly in `03_Figures_Data/`).
 
 ## 6. Citation
 
