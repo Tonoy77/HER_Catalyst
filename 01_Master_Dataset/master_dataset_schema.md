@@ -42,22 +42,50 @@ Physical properties for the five premier candidates residing in the near-optimal
 ## 3. Physical Formulations & Equations
 
 1. **Electronic Hydrogen Adsorption Energy ($\Delta E_{\mathrm{H}}$):**
-   $$\Delta E_{\mathrm{H}} = E(\text{slab}+\mathrm{H}^*) - E(\text{slab}) - \frac{1}{2}E(\mathrm{H}_2)$$
-   where $E(\mathrm{H}_2) = -6.759123\text{ eV}$ (isolated $\mathrm{H}_2$ molecule in a $15 \times 15 \times 15\text{ \AA}^3$ box).
+   \[
+   \Delta E_{\mathrm{H}} =
+   E(\text{slab}+\mathrm{H}^*) - E(\text{slab})
+   - \frac{1}{2}E(\mathrm{H}_2)
+   \]
+   where $E(\mathrm{H}_2) = -6.759123\,\mathrm{eV}$ (isolated $\mathrm{H}_2$ molecule in a $15 \times 15 \times 15\,\text{\AA}^3$ box).
 
 2. **Zero-Point Energy and Free-Energy Correction ($\Delta G_{\mathrm{corr}}$):**
-   $$\Delta\mathrm{ZPE} = \mathrm{ZPE}(\mathrm{H}^*) - \frac{1}{2}\mathrm{ZPE}(\mathrm{H}_2)$$
-   with $\frac{1}{2}\mathrm{ZPE}(\mathrm{H}_2) = 0.1334\text{ eV}$.
-   $$-T\Delta S = +0.2019\text{ eV} \quad (T = 298.15\text{ K}, \quad P = 1\text{ bar})$$
-   $$\Delta G_{\mathrm{corr}} = \Delta\mathrm{ZPE} - T\Delta S = \mathrm{ZPE}(\mathrm{H}^*) + 0.0685\text{ eV}$$
-   $$\Delta G_{\mathrm{H}^*} = \Delta E_{\mathrm{H}} + \Delta G_{\mathrm{corr}}$$
+   \[
+   \begin{aligned}
+   \Delta\mathrm{ZPE}
+     &= \mathrm{ZPE}(\mathrm{H}^*) - \frac{1}{2}\mathrm{ZPE}(\mathrm{H}_2), \\
+   \frac{1}{2}\mathrm{ZPE}(\mathrm{H}_2)
+     &= 0.1334\,\mathrm{eV}, \\
+   -T\Delta S
+     &= +0.2019\,\mathrm{eV}
+     \quad (T = 298.15\,\mathrm{K},\ P = 1\,\mathrm{bar}), \\
+   \Delta G_{\mathrm{corr}}
+     &= \Delta\mathrm{ZPE} - T\Delta S
+      = \mathrm{ZPE}(\mathrm{H}^*) + 0.0685\,\mathrm{eV}, \\
+   \Delta G_{\mathrm{H}^*}
+     &= \Delta E_{\mathrm{H}} + \Delta G_{\mathrm{corr}}.
+   \end{aligned}
+   \]
 
 3. **Bulk Formation Energy ($E_{\mathrm{form,bulk}}$):**
-   $$E_{\mathrm{form,bulk}} = E(\text{TM}_1\text{TM}_2/\text{Si}(111)) + 2\mu_{\mathrm{Si}} - E(\text{bare Si}(111)) - \mu(\text{TM}_1) - \mu(\text{TM}_2)$$
-   where $E(\text{bare Si}(111)) = -167.6636\text{ eV}$ (pristine 34-atom Si(111)-$1\times 1$ slab), $\mu_{\mathrm{Si}} = -5.42\text{ eV}$, and $\mu(\text{TM})$ are the chemical potentials from the elemental bulk metals.
+   \[
+   \begin{aligned}
+   E_{\mathrm{form,bulk}}
+     ={}& E(\text{TM}_1\text{TM}_2/\text{Si}(111))
+     + 2\mu_{\mathrm{Si}} - E(\text{bare Si}(111)) \\
+     &- \mu(\text{TM}_1) - \mu(\text{TM}_2).
+   \end{aligned}
+   \]
+   Here, $E(\text{bare Si}(111)) = -167.6636\,\mathrm{eV}$ (pristine 34-atom Si(111)-$1\times 1$ slab), $\mu_{\mathrm{Si}} = -5.42\,\mathrm{eV}$, and $\mu(\mathrm{TM})$ denotes the chemical potential of the corresponding elemental bulk metal.
 
 4. **Anchoring Energy ($E_{\mathrm{anchor}}$):**
-   $$E_{\mathrm{anchor}} = E(\text{TM}_1\text{TM}_2/\text{Si}(111)) - E(\text{bare Si}(111)) - E(\text{isolated TM}_1) - E(\text{isolated TM}_2)$$
+   \[
+   E_{\mathrm{anchor}} =
+   E(\text{TM}_1\text{TM}_2/\text{Si}(111))
+   - E(\text{bare Si}(111))
+   - E(\text{isolated TM}_1)
+   - E(\text{isolated TM}_2).
+   \]
 
 ---
 
